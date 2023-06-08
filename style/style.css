@@ -1,0 +1,174 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Labrada', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav {
+    background: linear-gradient(to top, #65B891, #156B46);
+}
+
+.icon a span:hover {
+    background-color: white;
+    border-radius: 3px;
+}
+
+.icon {
+    display: flex;
+}
+
+.menu-text {
+    color: white;
+}
+
+.menu-text:hover {
+    color: #d48b37;
+}
+
+/* .marquee-work{
+    height: 70px;
+    background-color: #5F8C23;
+ } */
+.read-more {
+    text-decoration: none;
+}
+
+.border-radious {
+    border-radius: 5px;
+}
+
+.topic-titles {
+    background: linear-gradient(to top, #65B891, #156B46);
+}
+
+.client-title {
+    color: #5f8c23;
+}
+
+.review .row .img {
+    padding-left: 0%;
+}
+
+/* .s-logo {
+    margin-top: 160px;
+} */
+
+.s-logo .f-logo {
+    height: 35px;
+    width: auto;
+}
+
+.s-logo .f-logo .img {
+    width: 100%;
+    height: auto;
+}
+
+.f-img {
+    background: linear-gradient(to top, #65B891, #156B46);
+}
+
+/* ----- mobile view ----- */
+
+@media (max-width: 600px) {
+    .review .row .img {
+        padding-right: 0;
+    }
+
+    .s-logo {
+        margin-top: 0px;
+    }
+
+    .review .review-row {
+        flex-direction: column-reverse;
+    }
+
+    .footer .f-manu .h5 .a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* footer .row {
+        margin: 5px 25px;
+    } */
+}
+
+/* for about us page */
+
+.about-title {
+    color: white;
+}
+
+.leader h3 {
+    background: linear-gradient(#9bc661, #5F8C23);
+    padding: 5px 7px;
+    border-radius: 7px;
+}
+
+.leader {
+
+    width: 50vw;
+    display: flex;
+    ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-pra p {
+    margin-top: 80px
+}
+
+.partner,
+.partner-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner p,
+.partner-offer p {
+    background: linear-gradient(#9bc661, #5F8C23);
+    padding: 5px 7px;
+    border-radius: 7px;
+}
+
+.partner p,
+.partner-offer p {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.offer-text {
+    font-weight: bold;
+
+}
+
+.book-btn {
+    background: linear-gradient(to top, #65B891, #156B46);
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
